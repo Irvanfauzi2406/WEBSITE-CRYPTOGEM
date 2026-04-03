@@ -1,15 +1,3 @@
-{
-  "version": 2,
-  "builds": [
-    {
-      "src": "**/*",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ]
-}
+git add vercel.json
+   git commit -m "fix: update vercel config for static site"
+   git push
