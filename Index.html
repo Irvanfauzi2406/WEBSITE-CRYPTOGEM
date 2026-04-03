@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Crypto Gem — Komunitas eksklusif para investor dan trader crypto terbaik Indonesia. Temukan permata digital terpilih bersama kami.">
+<meta name="theme-color" content="#0a1628">
+<title>Crypto Gem — Premium Crypto Community</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-logo">
+    <svg class="logo-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="100" cy="92" r="80" stroke="#1a3a6e" stroke-width="6" fill="none"/>
+      <circle cx="100" cy="92" r="66" stroke="#2563b0" stroke-width="4" fill="none"/>
+      <circle cx="100" cy="92" r="52" stroke="#3b82d0" stroke-width="2.5" fill="none"/>
+      <line x1="152" y1="80" x2="175" y2="80" stroke="#1a3a6e" stroke-width="7" stroke-linecap="round"/>
+      <line x1="152" y1="92" x2="170" y2="92" stroke="#2563b0" stroke-width="5.5" stroke-linecap="round"/>
+      <line x1="152" y1="104" x2="165" y2="104" stroke="#1a3a6e" stroke-width="4" stroke-linecap="round"/>
+      <polygon points="100,55 125,75 115,105 85,105 75,75" stroke="#0d1f3c" stroke-width="3" fill="rgba(200,210,240,0.15)"/>
+      <line x1="75" y1="75" x2="125" y2="75" stroke="#0d1f3c" stroke-width="2"/>
+      <line x1="75" y1="75" x2="100" y2="55" stroke="#0d1f3c" stroke-width="2"/>
+      <line x1="125" y1="75" x2="100" y2="55" stroke="#0d1f3c" stroke-width="2"/>
+      <line x1="75" y1="75" x2="85" y2="105" stroke="#0d1f3c" stroke-width="2"/>
+      <line x1="125" y1="75" x2="115" y2="105" stroke="#0d1f3c" stroke-width="2"/>
+      <line x1="100" y1="55" x2="85" y2="105" stroke="#0d1f3c" stroke-width="1.5"/>
+      <line x1="100" y1="55" x2="115" y2="105" stroke="#0d1f3c" stroke-width="1.5"/>
+      <line x1="85" y1="105" x2="115" y2="105" stroke="#0d1f3c" stroke-width="2"/>
+      <line x1="100" y1="75" x2="100" y2="55" stroke="#0d1f3c" stroke-width="1.5"/>
+    </svg>
+    <span class="nav-brand">CRYPTO <span>GEM</span></span>
+  </div>
+  <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">Tentang</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#events">Event</a></li>
+    <li><a href="#activity">Aktivitas</a></li>
+    <li><a href="#pnl">Journal PnL</a></li>
+    <li><a href="#members">Member</a></li>
+  </ul>
+  <a href="#join" class="nav-cta">Bergabung</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <svg class="diamond-deco" viewBox="0 0 300 280" fill="none">
+    <polygon points="150,20 270,100 210,260 90,260 30,100" stroke="white" stroke-width="1.5" fill="none"/>
+    <line x1="30" y1="100" x2="270" y2="100" stroke="white" stroke-width="1"/>
+    <line x1="30" y1="100" x2="150" y2="20" stroke="white" stroke-width="1"/>
+    <line x1="270" y1="100" x2="150" y2="20" stroke="white" stroke-width="1"/>
+  </svg>
+  <svg class="diamond-deco2" viewBox="0 0 200 190" fill="none">
+    <polygon points="100,10 180,70 140,180 60,180 20,70" stroke="white" stroke-width="1.5" fill="none"/>
+    <line x1="20" y1="70" x2="180" y2="70" stroke="white" stroke-width="1"/>
+  </svg>
+  <div class="hero-content">
+    <div class="hero-badge">Premium Crypto Community</div>
+    <h1 class="hero-title">
+      <em>Temukan Permata</em>
+      <strong>Digital Terbaik</strong>
+    </h1>
+    <p class="hero-sub">Komunitas eksklusif para investor dan trader crypto yang berfokus pada penemuan aset-aset terpilih dengan potensi luar biasa.</p>
+    <div class="hero-actions">
+      <a href="#portfolio" class="btn-primary">Lihat Portfolio</a>
+      <a href="#about" class="btn-secondary">Pelajari Lebih</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="stat-num" data-target="2400">0</div>
+        <div class="stat-label">Member Aktif</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">$18M+</div>
+        <div class="stat-label">Total Portfolio</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-target="340">0</div>
+        <div class="stat-label">Avg. ROI 2024 (%)</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" data-target="96">0</div>
+        <div class="stat-label">Gem Terdaftar</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about section-pad" id="about">
+  <div class="about-grid container">
+    <div class="about-img-wrap">
+      <div class="about-logo-display">
+        <div class="about-corner ac-tl"></div>
+        <div class="about-corner ac-br"></div>
+        <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:70%;height:70%;position:relative;z-index:2">
+          <circle cx="100" cy="92" r="80" stroke="#2563b0" stroke-width="5" fill="none"/>
+          <circle cx="100" cy="92" r="65" stroke="#3b72c0" stroke-width="3.5" fill="none"/>
+          <circle cx="100" cy="92" r="50" stroke="#5090d8" stroke-width="2" fill="none"/>
+          <line x1="154" y1="78" x2="178" y2="78" stroke="#2563b0" stroke-width="7" stroke-linecap="round"/>
+          <line x1="154" y1="92" x2="172" y2="92" stroke="#3b72c0" stroke-width="5" stroke-linecap="round"/>
+          <line x1="154" y1="106" x2="166" y2="106" stroke="#2563b0" stroke-width="4" stroke-linecap="round"/>
+          <polygon points="100,52 128,74 118,108 82,108 72,74" stroke="#c9a84c" stroke-width="2.5" fill="rgba(201,168,76,0.08)"/>
+          <line x1="72" y1="74" x2="128" y2="74" stroke="#c9a84c" stroke-width="1.8"/>
+          <line x1="72" y1="74" x2="100" y2="52" stroke="#c9a84c" stroke-width="1.8"/>
+          <line x1="128" y1="74" x2="100" y2="52" stroke="#c9a84c" stroke-width="1.8"/>
+          <line x1="72" y1="74" x2="82" y2="108" stroke="#c9a84c" stroke-width="1.8"/>
+          <line x1="128" y1="74" x2="118" y2="108" stroke="#c9a84c" stroke-width="1.8"/>
+          <line x1="100" y1="52" x2="82" y2="108" stroke="#c9a84c" stroke-width="1.5" opacity="0.7"/>
+          <line x1="100" y1="52" x2="118" y2="108" stroke="#c9a84c" stroke-width="1.5" opacity="0.7"/>
+          <line x1="82" y1="108" x2="118" y2="108" stroke="#c9a84c" stroke-width="1.8"/>
+        </svg>
+      </div>
+    </div>
+    <div class="about-text">
+      <div class="section-tag-left">Tentang Kami</div>
+      <h2>Komunitas <span>Terpercaya</span><br>Para Crypto Gems Hunter</h2>
+      <p>Crypto Gem hadir sebagai wadah bagi para enthusiast crypto yang serius dalam mengidentifikasi dan menginvestasikan pada proyek-proyek blockchain terpilih dengan potensi pertumbuhan tinggi.</p>
+      <p>Dengan metodologi riset mendalam dan jaringan insider yang kuat, kami telah membuktikan kemampuan dalam menemukan "permata tersembunyi" sebelum pasar menyadarinya.</p>
+      <div class="about-features">
+        <div class="feat-row">
+          <div class="feat-icon">◆</div>
+          <div class="feat-info">
+            <h4>Riset Fundamental Mendalam</h4>
+            <p>Analisis menyeluruh setiap proyek dari teknologi, tim, tokenomics, hingga roadmap.</p>
+          </div>
+        </div>
+        <div class="feat-row">
+          <div class="feat-icon">⬡</div>
+          <div class="feat-info">
+            <h4>Jaringan Eksklusif</h4>
+            <p>Akses ke informasi privileged melalui koneksi langsung dengan tim pengembang.</p>
+          </div>
+        </div>
+        <div class="feat-row">
+          <div class="feat-icon">▲</div>
+          <div class="feat-info">
+            <h4>Track Record Terbukti</h4>
+            <p>Portfolio dengan rata-rata return 340% sepanjang 2024, didokumentasikan secara transparan.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="section-pad" id="portfolio" style="background:var(--navy)">
+  <div class="container">
+    <div class="section-tag">Portfolio Unggulan</div>
+    <h2 class="section-title">Gem <strong>Terpilih</strong></h2>
+    <p class="section-desc">Koleksi aset crypto berkualitas tinggi yang telah melalui seleksi ketat oleh tim analis berpengalaman kami.</p>
+    <div class="portfolio-grid">
+      <div class="port-card">
+        <div class="port-card-img" style="background:linear-gradient(135deg,#0d2445,#1a4080)">
+          <svg width="80" height="80" viewBox="0 0 80 80"><circle cx="40" cy="40" r="35" stroke="#c9a84c" stroke-width="1.5" fill="none" opacity="0.4"/><text x="40" y="48" text-anchor="middle" fill="#c9a84c" font-size="28" font-family="serif">₿</text></svg>
+        </div>
+        <div class="port-arrow">↗</div>
+        <div class="port-body">
+          <div class="port-category">Layer 1</div>
+          <div class="port-title">Bitcoin Ecosystem Play</div>
+          <div class="port-desc">Proyek inovatif yang memanfaatkan ekosistem Bitcoin dengan pendekatan baru dan potensi adopsi masif.</div>
+          <div class="port-tags"><span class="tag">BTC</span><span class="tag">DeFi</span><span class="tag tag-green">+340%</span></div>
+        </div>
+      </div>
+      <div class="port-card">
+        <div class="port-card-img" style="background:linear-gradient(135deg,#0d2445,#1e2d6e)">
+          <svg width="80" height="80" viewBox="0 0 80 80"><polygon points="40,8 68,28 58,58 22,58 12,28" stroke="#7ba8e0" stroke-width="1.5" fill="none" opacity="0.5"/><text x="40" y="46" text-anchor="middle" fill="#7ba8e0" font-size="22" font-family="serif">◈</text></svg>
+        </div>
+        <div class="port-arrow">↗</div>
+        <div class="port-body">
+          <div class="port-category">DeFi Protocol</div>
+          <div class="port-title">Yield Optimization Layer</div>
+          <div class="port-desc">Protokol yield farming generasi berikutnya dengan mekanisme auto-compounding yang revolusioner.</div>
+          <div class="port-tags"><span class="tag">ETH</span><span class="tag">Yield</span><span class="tag tag-green">+280%</span></div>
+        </div>
+      </div>
+      <div class="port-card">
+        <div class="port-card-img" style="background:linear-gradient(135deg,#12213a,#0f3050)">
+          <svg width="80" height="80" viewBox="0 0 80 80"><rect x="15" y="15" width="50" height="50" rx="8" stroke="#e8c96d" stroke-width="1.5" fill="none" opacity="0.4"/><text x="40" y="48" text-anchor="middle" fill="#e8c96d" font-size="22" font-family="serif">◆</text></svg>
+        </div>
+        <div class="port-arrow">↗</div>
+        <div class="port-body">
+          <div class="port-category">GameFi</div>
+          <div class="port-title">Metaverse Economy</div>
+          <div class="port-desc">Platform gaming blockchain dengan ekonomi virtual yang berkelanjutan dan komunitas yang berkembang pesat.</div>
+          <div class="port-tags"><span class="tag">NFT</span><span class="tag">Gaming</span><span class="tag tag-green">+510%</span></div>
+        </div>
+      </div>
+      <div class="port-card">
+        <div class="port-card-img" style="background:linear-gradient(135deg,#0a1e38,#1a3050)">
+          <svg width="80" height="80" viewBox="0 0 80 80"><circle cx="40" cy="30" r="18" stroke="#5dcaa5" stroke-width="1.5" fill="none" opacity="0.4"/><line x1="20" y1="55" x2="60" y2="55" stroke="#5dcaa5" stroke-width="1.5" opacity="0.4"/><text x="40" y="38" text-anchor="middle" fill="#5dcaa5" font-size="18" font-family="serif">◎</text></svg>
+        </div>
+        <div class="port-arrow">↗</div>
+        <div class="port-body">
+          <div class="port-category">AI + Blockchain</div>
+          <div class="port-title">Decentralized AI Node</div>
+          <div class="port-desc">Infrastruktur AI terdesentralisasi yang menggabungkan kekuatan jaringan blockchain dengan kecerdasan buatan.</div>
+          <div class="port-tags"><span class="tag">AI</span><span class="tag">Infra</span><span class="tag tag-green">+890%</span></div>
+        </div>
+      </div>
+      <div class="port-card">
+        <div class="port-card-img" style="background:linear-gradient(135deg,#161228,#231840)">
+          <svg width="80" height="80" viewBox="0 0 80 80"><polygon points="40,12 54,30 50,50 30,50 26,30" stroke="#afa9ec" stroke-width="1.5" fill="none" opacity="0.5"/><text x="40" y="44" text-anchor="middle" fill="#afa9ec" font-size="18" font-family="serif">⬡</text></svg>
+        </div>
+        <div class="port-arrow">↗</div>
+        <div class="port-body">
+          <div class="port-category">Layer 2</div>
+          <div class="port-title">ZK Rollup Solution</div>
+          <div class="port-desc">Solusi skalabilitas mutakhir menggunakan zero-knowledge proof untuk transaksi ultra-cepat dan murah.</div>
+          <div class="port-tags"><span class="tag">ZK</span><span class="tag">Scaling</span><span class="tag tag-green">+420%</span></div>
+        </div>
+      </div>
+      <div class="port-card">
+        <div class="port-card-img" style="background:linear-gradient(135deg,#0e2018,#0a2e1e)">
+          <svg width="80" height="80" viewBox="0 0 80 80"><circle cx="40" cy="40" r="28" stroke="#97c459" stroke-width="1.5" fill="none" opacity="0.4"/><circle cx="40" cy="40" r="16" stroke="#97c459" stroke-width="1" fill="none" opacity="0.3"/><text x="40" y="47" text-anchor="middle" fill="#97c459" font-size="20" font-family="serif">∞</text></svg>
+        </div>
+        <div class="port-arrow">↗</div>
+        <div class="port-body">
+          <div class="port-category">RWA Tokenization</div>
+          <div class="port-title">Real World Assets</div>
+          <div class="port-desc">Platform tokenisasi aset dunia nyata yang menjembatani ekonomi tradisional dengan ekosistem blockchain.</div>
+          <div class="port-tags"><span class="tag">RWA</span><span class="tag">Tokenized</span><span class="tag tag-green">+190%</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section class="section-pad" id="achievements" style="background:var(--navy2)">
+  <div class="container">
+    <div class="section-tag">Track Record</div>
+    <h2 class="section-title">Prestasi <strong>Komunitas</strong></h2>
+    <p class="section-desc">Angka-angka nyata yang mencerminkan komitmen dan keberhasilan komunitas Crypto Gem.</p>
+    <div class="achievements-row">
+      <div class="ach-card ach-gold">
+        <span class="ach-icon">◆</span>
+        <div class="ach-num">340%</div>
+        <div class="ach-label">Rata-rata ROI<br>Portfolio 2024</div>
+      </div>
+      <div class="ach-card ach-blue">
+        <span class="ach-icon">⬡</span>
+        <div class="ach-num">96</div>
+        <div class="ach-label">Gem Berhasil<br>Diidentifikasi</div>
+      </div>
+      <div class="ach-card ach-green">
+        <span class="ach-icon">▲</span>
+        <div class="ach-num">$18M</div>
+        <div class="ach-label">Total Nilai<br>Portfolio Komunitas</div>
+      </div>
+      <div class="ach-card ach-purple">
+        <span class="ach-icon">◎</span>
+        <div class="ach-num">2.4K</div>
+        <div class="ach-label">Member Premium<br>Aktif Saat Ini</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EVENT GALLERY -->
+<section class="section-pad" id="events" style="background:var(--navy)">
+  <div class="container">
+    <div class="section-tag">Dokumentasi</div>
+    <h2 class="section-title">Galeri <strong>Event Komunitas</strong></h2>
+    <p class="section-desc">Momen-momen berharga bersama keluarga besar Crypto Gem — dari meetup, seminar, hingga gathering eksklusif.</p>
+    <div class="slider-wrap">
+      <div class="slides-track" id="track">
+        <div class="slide">
+          <div class="slide-img slide-img-1">
+            <div class="slide-overlay"></div>
+            <div class="slide-content">
+              <span class="slide-badge">Meetup Jakarta</span>
+              <div class="slide-title">Crypto Gem Gathering Vol.1</div>
+              <div class="slide-meta">15 Januari 2025 &middot; Hotel Raffles Jakarta &middot; 120 Peserta</div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-img slide-img-2">
+            <div class="slide-overlay"></div>
+            <div class="slide-content">
+              <span class="slide-badge">Seminar Nasional</span>
+              <div class="slide-title">Web3 Indonesia Summit 2025</div>
+              <div class="slide-meta">8 Maret 2025 &middot; JCC Senayan Jakarta &middot; 450 Peserta</div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-img slide-img-3">
+            <div class="slide-overlay"></div>
+            <div class="slide-content">
+              <span class="slide-badge">Private Event</span>
+              <div class="slide-title">Exclusive Dinner &amp; Networking Night</div>
+              <div class="slide-meta">22 April 2025 &middot; The Ritz-Carlton Pacific Place &middot; Member Premium</div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-img slide-img-4">
+            <div class="slide-overlay"></div>
+            <div class="slide-content">
+              <span class="slide-badge">Workshop</span>
+              <div class="slide-title">Trading Masterclass — On-Chain Analysis</div>
+              <div class="slide-meta">10 Mei 2025 &middot; Hybrid Event &middot; 280 Peserta</div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-img slide-img-5">
+            <div class="slide-overlay"></div>
+            <div class="slide-content">
+              <span class="slide-badge">Community Day</span>
+              <div class="slide-title">Crypto Gem 1st Anniversary Celebration</div>
+              <div class="slide-meta">2 Juni 2025 &middot; Bali International Convention Centre &middot; 600+ Hadir</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="slide-nav slide-prev" id="prev" aria-label="Previous">&#8592;</button>
+      <button class="slide-nav slide-next" id="next" aria-label="Next">&#8594;</button>
+      <div class="slide-dots" id="dots"></div>
+      <div class="slide-thumbs" id="thumbs"></div>
+    </div>
+    <p class="upload-hint">&#128247; Ganti gambar placeholder dengan foto event Anda di folder <code>public/events/</code></p>
+  </div>
+</section>
+
+<!-- WA ACTIVITY + PNL -->
+<section class="section-pad" id="activity" style="background:var(--navy2)">
+  <div class="container">
+    <div class="two-col-grid">
+
+      <!-- WA GROUP -->
+      <div>
+        <div class="section-tag-left">Aktivitas Grup</div>
+        <h2 class="section-title-left">Group <strong>WhatsApp</strong></h2>
+        <div class="gold-line-left"></div>
+        <div class="wa-panel">
+          <div class="wa-header">
+            <div class="wa-avatar">CG</div>
+            <div class="wa-info">
+              <h4>Crypto Gem — Signal Room</h4>
+              <p>2.419 anggota &middot; aktif sekarang</p>
+            </div>
+            <div class="wa-online-dot"></div>
+          </div>
+          <div class="wa-messages">
+            <div class="msg-row">
+              <div class="msg-ava">AR</div>
+              <div class="bubble bubble-in">
+                <div class="sender">Aryan (Lead Analyst)</div>
+                GM fam! Market bullish hari ini. BTC tembus 72K, altcoin mulai bergerak.
+                <div class="msg-time">08:14</div>
+              </div>
+            </div>
+            <div class="msg-row">
+              <div class="msg-ava">SP</div>
+              <div class="bubble bubble-in bubble-gem">
+                <div class="gem-label">◆ GEM ALERT — NEW ENTRY</div>
+                <div class="gem-coin">$EIGEN — EigenLayer</div>
+                <div class="gem-detail">Entry: $3.20 &middot; Target: $6.80 &middot; SL: $2.90</div>
+                <div class="gem-roi">Potential: +112% | Risk: Low</div>
+                <div class="msg-time">08:31</div>
+              </div>
+            </div>
+            <div class="msg-row msg-self">
+              <div class="msg-ava msg-ava-self">YO</div>
+              <div class="bubble bubble-self">
+                Mantap kak! Sudah posisi 500 USDT di $EIGEN
+                <div class="msg-time">08:35</div>
+              </div>
+            </div>
+            <div class="msg-row">
+              <div class="msg-ava">DK</div>
+              <div class="bubble bubble-in">
+                <div class="sender">Dimas (On-Chain)</div>
+                Whale alert: 2 wallet besar akumulasi $EIGEN sejak 3 hari lalu. Total 8.4M token. Bullish signal kuat.
+                <div class="msg-time">09:02</div>
+              </div>
+            </div>
+            <div class="msg-row">
+              <div class="msg-ava">SP</div>
+              <div class="bubble bubble-in bubble-gem bubble-gem-green">
+                <div class="gem-label gem-label-green">&#10003; TARGET HIT — $STRK</div>
+                <div class="gem-coin">$STRK — Starknet</div>
+                <div class="gem-detail">Entry: $0.48 → TP1 Hit: $0.94</div>
+                <div class="gem-roi gem-roi-green">Profit: +96% | Closed 50%</div>
+                <div class="msg-time">10:17</div>
+              </div>
+            </div>
+            <div class="msg-row">
+              <div class="msg-ava">NF</div>
+              <div class="bubble bubble-in">
+                <div class="sender">Nadia (Community Lead)</div>
+                Reminder: Exclusive Webinar malam ini jam 20.00 WIB. Link Zoom sudah dikirim ke email premium member.
+                <div class="msg-time">11:45</div>
+              </div>
+            </div>
+            <div class="msg-row">
+              <div class="msg-ava">AR</div>
+              <div class="bubble bubble-in bubble-gem">
+                <div class="gem-label">◆ WATCHLIST UPDATE</div>
+                <div class="gem-coin">$TIA &middot; $W &middot; $ALT</div>
+                <div class="gem-detail">Monitoring zona akumulasi. Update EOD.</div>
+                <div class="msg-time">14:30</div>
+              </div>
+            </div>
+          </div>
+          <div class="wa-input-row">
+            <input class="wa-input" placeholder="Hanya member yang bisa mengirim pesan..." readonly>
+            <button class="wa-send" aria-label="Send">&#9658;</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PNL JOURNAL -->
+      <div id="pnl">
+        <div class="section-tag-left">Rekap Keuangan</div>
+        <h2 class="section-title-left">Journal <strong>PnL Trading</strong></h2>
+        <div class="gold-line-left"></div>
+        <div class="pnl-metrics">
+          <div class="pnl-metric pnl-green">
+            <div class="pm-label">Total Profit</div>
+            <div class="pm-val pnl-val-green">+$84.2K</div>
+            <div class="pm-sub">Juni 2025</div>
+          </div>
+          <div class="pnl-metric pnl-gold">
+            <div class="pm-label">Win Rate</div>
+            <div class="pm-val pnl-val-gold">78%</div>
+            <div class="pm-sub">42 dari 54 trade</div>
+          </div>
+          <div class="pnl-metric pnl-blue">
+            <div class="pm-label">Best Gem</div>
+            <div class="pm-val pnl-val-blue">+347%</div>
+            <div class="pm-sub">$PEPE entry</div>
+          </div>
+          <div class="pnl-metric pnl-red">
+            <div class="pm-label">Max Drawdown</div>
+            <div class="pm-val pnl-val-red">-8.4%</div>
+            <div class="pm-sub">Terkontrol</div>
+          </div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-top">
+            <span class="chart-title">Kurva Ekuitas Komunitas</span>
+            <div class="chart-tabs">
+              <button class="ctab active" data-key="1M">1B</button>
+              <button class="ctab" data-key="3M">3B</button>
+              <button class="ctab" data-key="1Y">1T</button>
+            </div>
+          </div>
+          <div class="chart-wrap">
+            <canvas id="equityChart"></canvas>
+          </div>
+        </div>
+        <div class="journal-table-wrap">
+          <table class="journal-table">
+            <thead>
+              <tr>
+                <th>Aset</th><th>Aksi</th><th>Entry</th><th>Exit</th><th>PnL</th><th>ROI</th>
+              </tr>
+            </thead>
+            <tbody id="tradeRows"></tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- MEMBERS -->
+<section class="section-pad" id="members" style="background:var(--navy)">
+  <div class="container">
+    <div class="section-tag">Tim Ahli</div>
+    <h2 class="section-title">Core <strong>Members</strong></h2>
+    <p class="section-desc">Para ahli di balik analisis dan rekomendasi terpercaya komunitas Crypto Gem.</p>
+    <div class="members-grid">
+      <div class="member-card">
+        <div class="member-avatar">AR</div>
+        <div class="member-name">Aryan Rahmadi</div>
+        <div class="member-role">Lead Analyst</div>
+        <div class="member-bio">Veteran trader dengan 8 tahun pengalaman di DeFi dan Layer 1 ecosystem.</div>
+        <div class="member-social">
+          <div class="soc-btn">&#120143;</div>
+          <div class="soc-btn">in</div>
+          <div class="soc-btn">&#9672;</div>
+        </div>
+      </div>
+      <div class="member-card">
+        <div class="member-avatar">SP</div>
+        <div class="member-name">Sinta Prameswari</div>
+        <div class="member-role">Research Director</div>
+        <div class="member-bio">Spesialis tokenomics dan fundamental analysis proyek-proyek early stage.</div>
+        <div class="member-social">
+          <div class="soc-btn">&#120143;</div>
+          <div class="soc-btn">in</div>
+          <div class="soc-btn">&#9672;</div>
+        </div>
+      </div>
+      <div class="member-card">
+        <div class="member-avatar">DK</div>
+        <div class="member-name">Dimas Kusuma</div>
+        <div class="member-role">On-Chain Analyst</div>
+        <div class="member-bio">Ahli analisis on-chain data dan whale tracking untuk timing entry yang optimal.</div>
+        <div class="member-social">
+          <div class="soc-btn">&#120143;</div>
+          <div class="soc-btn">in</div>
+          <div class="soc-btn">&#9672;</div>
+        </div>
+      </div>
+      <div class="member-card">
+        <div class="member-avatar">NF</div>
+        <div class="member-name">Nadia Fitriani</div>
+        <div class="member-role">Community Lead</div>
+        <div class="member-bio">Membangun dan mengelola ekosistem komunitas crypto terbesar di Indonesia.</div>
+        <div class="member-social">
+          <div class="soc-btn">&#120143;</div>
+          <div class="soc-btn">in</div>
+          <div class="soc-btn">&#9672;</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA / JOIN -->
+<section class="cta-section" id="join">
+  <div class="container">
+    <div class="hero-badge">Bergabung Sekarang</div>
+    <h2 class="cta-title">Jadilah Bagian dari<br><em>Komunitas Elite</em></h2>
+    <div class="cta-divider"></div>
+    <p class="cta-desc">Dapatkan akses eksklusif ke riset mendalam, sinyal trading terpilih, dan jaringan investor crypto terbaik Indonesia.</p>
+    <div class="cta-actions">
+      <a href="https://t.me/cryptogem" class="btn-primary" target="_blank" rel="noopener">Daftar Member Premium</a>
+      <a href="https://t.me/cryptogem_free" class="btn-secondary" target="_blank" rel="noopener">Coba Gratis</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner container">
+    <div class="footer-logo">
+      <svg width="32" height="32" viewBox="0 0 80 80" fill="none">
+        <circle cx="40" cy="36" r="32" stroke="#2563b0" stroke-width="2.5" fill="none"/>
+        <circle cx="40" cy="36" r="26" stroke="#3b72c0" stroke-width="1.5" fill="none"/>
+        <polygon points="40,14 56,27 50,46 30,46 24,27" stroke="#c9a84c" stroke-width="1.5" fill="none"/>
+        <line x1="24" y1="27" x2="56" y2="27" stroke="#c9a84c" stroke-width="1"/>
+        <line x1="24" y1="27" x2="40" y2="14" stroke="#c9a84c" stroke-width="1"/>
+        <line x1="56" y1="27" x2="40" y2="14" stroke="#c9a84c" stroke-width="1"/>
+        <line x1="30" y1="46" x2="50" y2="46" stroke="#c9a84c" stroke-width="1"/>
+      </svg>
+      <span class="footer-brand">CRYPTO <span>GEM</span></span>
+    </div>
+    <div class="footer-copy">&copy; 2025 Crypto Gem Community. All rights reserved.</div>
+    <div class="footer-links">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="https://discord.gg/cryptogem" target="_blank" rel="noopener">Discord</a>
+      <a href="https://t.me/cryptogem" target="_blank" rel="noopener">Telegram</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
