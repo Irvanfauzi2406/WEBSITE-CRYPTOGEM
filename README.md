@@ -118,4 +118,4 @@ Edit langsung di `index.html` pada section `.hero-stats`.
 ---
 
 ## Lisensi
-Dibuat untuk komunitas Crypto Gem. Bebas dimodifikasi sesuai kebutuhan.
+Dibuat untuk komunitas Crypto Gem. Wajib Konfirmasi ke ADMIN apabila mau merubah data atau mengedit file file yang ada di GITHUB !
