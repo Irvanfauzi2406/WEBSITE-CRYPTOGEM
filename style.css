@@ -5,21 +5,21 @@
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
 :root {
-  --navy:   #07111f;
-  --navy2:  #0a1730;
-  --navy3:  #101f3b;
-  --card:   rgba(16,31,59,0.78);
-  --blue:   #1a3a6e;
+  --navy: #07111f;
+  --navy2: #0a1730;
+  --navy3: #101f3b;
+  --card: rgba(16,31,59,0.78);
+  --blue: #1a3a6e;
   --accent: #2563b0;
-  --cyan:   #37c8ff;
+  --cyan: #37c8ff;
   --violet: #7c5cff;
-  --gold:   #c9a84c;
-  --gold2:  #e8c96d;
-  --gold3:  #f5e1a0;
-  --white:  #f0eeea;
-  --muted:  #9aa8c0;
-  --green:  #1d9e75;
-  --red:    #e24b4a;
+  --gold: #c9a84c;
+  --gold2: #e8c96d;
+  --gold3: #f5e1a0;
+  --white: #f0eeea;
+  --muted: #9aa8c0;
+  --green: #1d9e75;
+  --red: #e24b4a;
   --border: rgba(201,168,76,0.18);
   --surface-border: rgba(255,255,255,0.08);
 }
@@ -381,15 +381,15 @@ body::after {
 .pnl-metric::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; }
 .pnl-metric::after { content: ''; position: absolute; inset: auto -15% -45% auto; width: 120px; height: 120px; background: radial-gradient(circle, rgba(255,255,255,0.06), transparent 70%); opacity: 0.5; pointer-events: none; }
 .pnl-green::before { background: linear-gradient(90deg,transparent,var(--green),transparent); }
-.pnl-gold::before  { background: linear-gradient(90deg,transparent,var(--gold),transparent); }
-.pnl-blue::before  { background: linear-gradient(90deg,transparent,#378add,transparent); }
-.pnl-red::before   { background: linear-gradient(90deg,transparent,var(--red),transparent); }
+.pnl-gold::before { background: linear-gradient(90deg,transparent,var(--gold),transparent); }
+.pnl-blue::before { background: linear-gradient(90deg,transparent,#378add,transparent); }
+.pnl-red::before { background: linear-gradient(90deg,transparent,var(--red),transparent); }
 .pm-label { font-size: 0.63rem; color: var(--muted); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 6px; }
 .pm-val { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; line-height: 1; }
 .pnl-val-green { color: #4caf8a; }
-.pnl-val-gold  { color: var(--gold2); }
-.pnl-val-blue  { color: #7ba8e0; }
-.pnl-val-red   { color: #f08080; }
+.pnl-val-gold { color: var(--gold2); }
+.pnl-val-blue { color: #7ba8e0; }
+.pnl-val-red { color: #f08080; }
 .pm-sub { font-size: 0.66rem; color: var(--muted); margin-top: 4px; }
 .chart-card { background: linear-gradient(180deg, rgba(17,30,53,0.84) 0%, rgba(10,20,38,0.76) 100%); border: 1px solid var(--border); border-radius: 8px; padding: 1.1rem; margin-bottom: 1.2rem; backdrop-filter: blur(14px); box-shadow: 0 18px 50px rgba(4,11,22,0.28); }
 .chart-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.8rem; }
@@ -404,13 +404,13 @@ body::after {
 .journal-table td { padding: 0.6rem 0.9rem; border-bottom: 1px solid rgba(255,255,255,0.04); white-space: nowrap; }
 .journal-table tr:last-child td { border-bottom: none; }
 .journal-table tr:hover td { background: rgba(255,255,255,0.02); }
-.badge-buy  { background: rgba(29,158,117,0.15); border: 1px solid rgba(29,158,117,0.35); color: #4caf8a; font-size: 0.6rem; padding: 2px 8px; border-radius: 100px; }
+.badge-buy { background: rgba(29,158,117,0.15); border: 1px solid rgba(29,158,117,0.35); color: #4caf8a; font-size: 0.6rem; padding: 2px 8px; border-radius: 100px; }
 .badge-sell { background: rgba(226,75,74,0.12); border: 1px solid rgba(226,75,74,0.3); color: #f08080; font-size: 0.6rem; padding: 2px 8px; border-radius: 100px; }
 .pnl-pos { color: #4caf8a; font-weight: 500; }
 .pnl-neg { color: #f08080; font-weight: 500; }
 .coin-cell { display: flex; align-items: center; gap: 6px; }
-.coin-dot  { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
-.td-muted  { color: var(--muted); }
+.coin-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+.td-muted { color: var(--muted); }
 
 /* ============================================================
    MEMBERS
@@ -460,7 +460,7 @@ footer { background: linear-gradient(180deg, rgba(6,12,24,0.96) 0%, rgba(3,8,18,
    ============================================================ */
 @media (max-width: 1024px) {
   .portfolio-grid { grid-template-columns: 1fr 1fr; }
-  .members-grid   { grid-template-columns: 1fr 1fr; }
+  .members-grid { grid-template-columns: 1fr 1fr; }
 }
 
 @media (max-width: 860px) {
